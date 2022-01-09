@@ -68,7 +68,7 @@ async function getWeather(city) {
       var icon = `<img src="${weatherURL}"/>`;
   
       cityDateIcon.innerHTML =
-        nameValue + currentDate.format(" (M/DD/YYYY) ") + icon;
+        nameValue + currentDate.format(" (MM/DD/YYYY) ") + icon;
       temp.innerHTML = "Temperature: " + tempValue + " °F";
       humidity.innerHTML = "Humidity: " + humidityValue + "%";
       wind.innerHTML = "Wind: " + windValue + " MPH";
@@ -165,7 +165,7 @@ async function uvIndex(lat, lon) {
                 )}</h4>
                     ${icon}
                 <p>Temp: ${cardTemp}&deg;F</p>
-                <p>Wind: ${cardWind} MPH</p>
+                
                 <p>Humidity: ${cardHumidity}%</p>
             </div>
         `;
