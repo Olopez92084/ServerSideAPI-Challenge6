@@ -161,7 +161,7 @@ async function uvIndex(lat, lon) {
       cardString += `
             <div class="card fiveDayCard" style="flex: 1">
                 <h4 class="dateHeader">${moment(new Date(cardData.dt * 1000)).format(
-                  " M/DD/YYYY"
+                  " MM/DD/YYYY"
                 )}</h4>
                     ${icon}
                 <p>Temp: ${cardTemp}&deg;F</p>
