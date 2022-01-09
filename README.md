@@ -9,7 +9,7 @@ LocalStorage stores prior search data and is cleared upon clicking the "Clear" b
 
 Github Repo link: https://github.com/Olopez92084/ServerSideAPI-Challenge6.git
 
-Link to Deployed Application: https://olopez92084.github.io/ServerSideAPI-Challenge6/!
+Link to Deployed Application: https://olopez92084.github.io/ServerSideAPI-Challenge6/
 
 
 ![Preview](https://user-images.githubusercontent.com/94086814/148672386-07d64d59-38d5-45ef-b508-5383ac3fe26f.jpg)
